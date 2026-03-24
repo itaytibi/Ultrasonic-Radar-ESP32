@@ -1,8 +1,8 @@
-# Ultrasonic Radar ESP32 📡
+# Ultrasonic Radar ESP32 
 
 A smart proximity alert system built with an ESP32 microcontroller and an HC-SR04 ultrasonic sensor. This project acts like a vehicle parking radar, dynamically changing the blink rate of a warning LED based on the distance to the nearest object.
 
-## Features 🚀
+## Features 
 * **Real-time distance measurement** using ultrasonic sound waves.
 * **Adaptive Alert System:** The LED blink rate increases as objects get closer.
   * `80cm - 100cm`: Slow blink (2Hz)
@@ -11,14 +11,14 @@ A smart proximity alert system built with an ESP32 microcontroller and an HC-SR0
   * `< 20cm`: Solid light (Danger / Stop)
 * **Serial Monitor output** for easy debugging and real-time distance tracking.
 
-## Hardware Required 🛠️
+## Hardware Required 
 * ESP32 Development Board
 * HC-SR04 Ultrasonic Sensor
 * 1x LED (Red)
 * 1x Resistor (220Ω - 1kΩ)
 * Breadboard and Jumper Wires
 
-## Wiring Guide 🔌
+## Wiring Guide 
 | Component | ESP32 Pin |
 | :--- | :--- |
 | HC-SR04 VCC | VIN / 5V |
@@ -28,7 +28,7 @@ A smart proximity alert system built with an ESP32 microcontroller and an HC-SR0
 | LED Anode (+) | GPIO 13 (via resistor) |
 | LED Cathode (-) | GND |
 
-## How to Run 💻
+## How to Run 
 1. Clone this repository or download the `ultrasonic_radar.ino` file.
 2. Open the file in the Arduino IDE.
 3. Select your ESP32 board and the correct COM port.
